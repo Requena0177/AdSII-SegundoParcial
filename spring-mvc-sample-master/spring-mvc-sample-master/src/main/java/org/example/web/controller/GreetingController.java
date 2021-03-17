@@ -1,6 +1,6 @@
 @RequestMapping("/bye")
-public String bye(@RequestParam(value="name", required=false,
+public String bye(@RequestParam(value="Renato", required=false,
 defaultValue="Universe") String name, Model model) {
-model.addAttribute("name", name);
+model.addAttribute("Renato", name);
 return "bye";
 }
